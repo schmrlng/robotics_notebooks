@@ -1,0 +1,61 @@
+{
+  "layout": {
+    "direction": "row",
+    "first": "ImageViewPanel!3it0jhx",
+    "second": "3D Panel!1my2ydk"
+  },
+  "savedProps": {
+    "3D Panel!1my2ydk": {
+      "checkedKeys": [
+        "name:Topics",
+        "t:/camera/depth/color/points"
+      ],
+      "expandedKeys": [
+        "name:Topics",
+        "t:/tf"
+      ],
+      "followTf": "camera_depth_optical_frame",
+      "cameraState": {
+        "targetOffset": [
+          0,
+          0,
+          0
+        ],
+        "thetaOffset": 0,
+        "distance": 0.15,
+        "perspective": true,
+        "phi": 3.141592653589793,
+        "fovy": 1,
+        "near": 0.01,
+        "far": 5000
+      },
+      "modifiedNamespaceTopics": [],
+      "pinTopics": false,
+      "settingsByKey": {},
+      "autoSyncCameraState": false,
+      "autoTextBackgroundColor": true
+    },
+    "ImageViewPanel!3it0jhx": {
+      "cameraTopic": "/camera/color/image_raw/compressed",
+      "enabledMarkerTopics": [],
+      "customMarkerTopicOptions": [],
+      "scale": 0.2,
+      "transformMarkers": true,
+      "synchronize": false,
+      "mode": "fit",
+      "offset": [
+        0,
+        180
+      ]
+    }
+  },
+  "globalVariables": {},
+  "userNodes": {},
+  "linkedGlobalVariables": [],
+  "playbackConfig": {
+    "speed": 0.2,
+    "messageOrder": "receiveTime",
+    "timeDisplayMethod": "ROS"
+  },
+  "version": 19
+}
